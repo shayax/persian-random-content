@@ -1,0 +1,75 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Random Persian Content Generator For Web Developers, ساخت متن تصادفی برای طراحان وب">
+    <meta property="author" content="https://github.com/shayax/"/>
+    <title>ساخت متن تصادفی برای طراحان وب</title>
+    <link rel="publisher" href="https://github.com/shayax/"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/min/contex1.min.js"></script>
+    <script src="js/min/contex2.min.js"></script>
+    <script src="js/main.js"></script>
+    </head>
+<body>
+    <div class="container">
+        <h1>ساخت متن تصادفی برای طراحان وب</h1>
+        <div id="input">
+        <form action="">
+            <label class="contex" for="contex">متن : </label>
+            <select id="contex" name="contex">
+                <option value="1">شازده کوچولو</option>
+                <option value="2">اشعار احمد شاملو</option>
+            </select>
+            <br>
+            <label class="parasize" for="parasize">اندازه‌ی متن : </label>
+            <select id="parasize" name="parasize">
+                <option value="5">کوچک</option>
+                <option value="10">معمولی</option>
+                <option value="25">بزرگ</option>
+                <option value="50">خیلی بزرگ</option>
+            </select>
+            <br>
+            <label class="paratype" for="paratype">تگِ متن : </label>
+            <select id="paratype" name="paratype">
+                <option value="1">&lt;بدون تگ&gt;</option>
+                <option value="2">&lt;p&gt;</option>
+                <option value="3">&lt;span&gt;</option>
+                <option value="4">&lt;li&gt;</option>
+            </select>
+            <br>
+            <label class="numpara" for="numpara">تعداد : </label>
+            <select id="numpara" name="numpara">
+                <option value="1">۱</option>
+                <option value="2">۲</option>
+                <option value="3">۳</option>
+                <option value="4">۴</option>
+                <option value="5">۵</option>
+                <option value="6">۶</option>
+                <option value="7">۷</option>
+                <option value="8">۸</option>
+                <option value="9">۹</option>
+                <option value="10">۱۰</option>
+                <option value="11">۱۱</option>
+                <option value="12">۱۲</option>
+                <option value="13">۱۳</option>
+                <option value="14">۱۴</option>
+                <option value="15">۱۵</option>
+                <option value="16">۱۶</option>
+                <option value="17">۱۷</option>
+                <option value="18">۱۸</option>
+                <option value="19">۱۹</option>
+                <option value="20">۲۰</option>
+            </select>
+            <br><br>
+            <input type="submit" value="بساز!" id="submit">
+        </form>
+    </div>
+    <div hidden="" id="output"></div>
+        <div id="footer"><p>
+        <span>این ابزار توسط <a href="https://github.com/shayax/">ShayaX</a> و برای کمک به طراحان وب و جامعه‌ی اپن‌سورس ساخته شده است.</span><br>
+        <span> سورس این پروژه را می‌توانید از گیت‌هاب <a href="https://github.com/shayax/persian-random-content">دانلود</a> کنید.</span></p>
+    </div>
+    </div>
+    </body>
+</html>
